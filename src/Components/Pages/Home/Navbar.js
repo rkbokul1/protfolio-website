@@ -9,7 +9,7 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <div class="navbar px-12 text-white fixed top-0 z-10">
+            <div class="navbar px-12 text-blue-400 fixed top-0 z-10">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">

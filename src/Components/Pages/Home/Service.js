@@ -4,7 +4,7 @@ const Service = (props) => {
     const {title, description} = props.product;
     return (
         <div class="card lg:max-w-lg bg-base-100 shadow-2xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+            <figure><img className='pr-o Lg:pr-28' src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title">{title}</h2>
                 <p>{description}</p>

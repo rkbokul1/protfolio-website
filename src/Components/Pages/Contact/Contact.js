@@ -1,11 +1,12 @@
 import React from 'react';
-import Navbar from '../Home/Navbar';
+import Footer from '../Home/Footer';
+import Message from './Message';
 
 const Contact = () => {
     return (
         <div>
-            <Navbar/>
-            <h1>This is contact page</h1>
+            <Message />
+            <Footer />
         </div>
     );
 };
