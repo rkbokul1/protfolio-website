@@ -31,7 +31,7 @@ const ParticleConfig = () => {
                                 mode: "push",
                             },
                             onHover: {
-                                enable: true,
+                                enable: false,
                                 mode: "repulse",
                             },
                             resize: true,
@@ -67,7 +67,7 @@ const ParticleConfig = () => {
                                 default: "bounce",
                             },
                             random: false,
-                            speed: 6,
+                            speed: 2,
                             straight: false,
                         },
                         number: {
@@ -78,7 +78,7 @@ const ParticleConfig = () => {
                             value: 80,
                         },
                         opacity: {
-                            value: 0.5,
+                            value: 0.3,
                         },
                         shape: {
                             type: "circle",
