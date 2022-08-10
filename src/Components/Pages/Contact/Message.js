@@ -11,7 +11,7 @@ const Message = () => {
     }
     return (
         <div className='min-h-screen flex items-center'>
-            <div class="card max-w-lg bg-base-100 shadow-xl mx-auto mt-14">
+            <div class="card max-w-sm bg-base-100 shadow-xl mx-auto mt-14">
                 <h1 className='text-3xl font-bold text-center'>Message</h1>
                 <div class="card-body justify-center">
                     <form onSubmit={handleSubmit}>

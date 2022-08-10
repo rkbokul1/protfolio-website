@@ -5,7 +5,7 @@ import AboutMe from './AboutMe';
 
 const About = () => {
     return (
-        <div className='bg-black'>
+        <div className='bg-black pt-16'>
             <AboutMe/>
             <Services/>
             <Footer/>

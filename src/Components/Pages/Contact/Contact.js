@@ -4,7 +4,7 @@ import Message from './Message';
 
 const Contact = () => {
     return (
-        <div>
+        <div className='bg-black'>
             <Message />
             <Footer />
         </div>

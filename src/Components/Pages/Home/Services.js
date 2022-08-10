@@ -18,6 +18,21 @@ const Services = () => {
             title: 'Graphics Design',
             description: 'Fully Graphics Related Support.',
         },
+        {
+            id: 4,
+            title: 'Full-Stack',
+            description: 'With Reactjs, Expressjs, Nodejs and MondoDb.',
+        },
+        {
+            id: 5,
+            title: 'UI-UX Design',
+            description: 'Professional Ui-UX design in Photoshop, Figma and Adobe-XD.',
+        },
+        {
+            id: 6,
+            title: 'Graphics Design',
+            description: 'Fully Graphics Related Support.',
+        },
     ]
     return (
         <div id='services' className='px-12'>
